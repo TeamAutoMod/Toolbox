@@ -31,7 +31,6 @@ class S:
     
 
     def __len__(self) -> int:
-        print([x for x in dir(self) if not x.startswith("_")])
         return len([x for x in dir(self) if not x.startswith("_")])
     
 
