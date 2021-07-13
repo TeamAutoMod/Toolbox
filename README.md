@@ -14,7 +14,7 @@ from toolbox import asciify
 string = asciify("t̤̜̗e͖s̯̘͓t̜̣̮̼͉̣̜")
 
 if __name__ == "__main__":
-    print(string)  -> test
+    print(string) # -> test
 ```
 
 ```py
